@@ -11,9 +11,11 @@
             'speech': "That's it! You can attack me, you can call me names, but no one -- NO ONE -- touches my blaster!",
             'powers': array(
                 "/buff",
-                "/run 0-1"
+                "/run 0-3"
             ),
             'buffs': array(
                 "/effect ". @plr ." 16 9999 1 true"           
-            )
+                "/effect ". @plr . "11 9999 2 true"
+                "/effect ". @plr . "5  9999 1 true"
+                )
         )
